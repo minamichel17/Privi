@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FA68D8E36AA830447C117D5 /* Pods_Privi_PriviUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0C1109C82B1911AF6B6BB8 /* Pods_Privi_PriviUITests.framework */; };
+		C4C5780571736B0AA61CFAE3 /* Pods_PriviTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAE41A250A1877087353F5D /* Pods_PriviTests.framework */; };
+		E12227FE7123D0CE7E7F3039 /* Pods_Privi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D067380040ADAF1CA1722C63 /* Pods_Privi.framework */; };
+		EC2BA3B127C3D92E00CE0AD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2BA3B027C3D92E00CE0AD8 /* ViewController.swift */; };
+		EC2BA3B727C3ED2100CE0AD8 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC2BA3B527C3ED2100CE0AD8 /* Model.xcdatamodeld */; };
 		EC3AD68C27BD36C200A5AC14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3AD68B27BD36C200A5AC14 /* AppDelegate.swift */; };
-		EC3AD68E27BD36C200A5AC14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3AD68D27BD36C200A5AC14 /* SceneDelegate.swift */; };
-		EC3AD69027BD36C200A5AC14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3AD68F27BD36C200A5AC14 /* ViewController.swift */; };
 		EC3AD69327BD36C200A5AC14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3AD69127BD36C200A5AC14 /* Main.storyboard */; };
-		EC3AD69627BD36C200A5AC14 /* Privi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC3AD69427BD36C200A5AC14 /* Privi.xcdatamodeld */; };
 		EC3AD69827BD36C300A5AC14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3AD69727BD36C300A5AC14 /* Assets.xcassets */; };
 		EC3AD69B27BD36C300A5AC14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3AD69927BD36C300A5AC14 /* LaunchScreen.storyboard */; };
 		EC3AD6A627BD36C300A5AC14 /* PriviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3AD6A527BD36C300A5AC14 /* PriviTests.swift */; };
@@ -37,12 +39,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		146C1C59946D6E785004BBFB /* Pods-PriviTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriviTests.debug.xcconfig"; path = "Target Support Files/Pods-PriviTests/Pods-PriviTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BC4AFDBFD98E4FAE30A3834 /* Pods-Privi-PriviUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Privi-PriviUITests.debug.xcconfig"; path = "Target Support Files/Pods-Privi-PriviUITests/Pods-Privi-PriviUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C0C1109C82B1911AF6B6BB8 /* Pods_Privi_PriviUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Privi_PriviUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAE41A250A1877087353F5D /* Pods_PriviTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PriviTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BD35C9A5540D7C736262DA /* Pods-Privi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Privi.release.xcconfig"; path = "Target Support Files/Pods-Privi/Pods-Privi.release.xcconfig"; sourceTree = "<group>"; };
+		BDC8CD4D9C8DAEE9B7D3B8B4 /* Pods-PriviTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PriviTests.release.xcconfig"; path = "Target Support Files/Pods-PriviTests/Pods-PriviTests.release.xcconfig"; sourceTree = "<group>"; };
+		D067380040ADAF1CA1722C63 /* Pods_Privi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Privi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBA00C59E503BCD50C76A3C8 /* Pods-Privi-PriviUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Privi-PriviUITests.release.xcconfig"; path = "Target Support Files/Pods-Privi-PriviUITests/Pods-Privi-PriviUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E13DF55F151BE90481630B44 /* Pods-Privi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Privi.debug.xcconfig"; path = "Target Support Files/Pods-Privi/Pods-Privi.debug.xcconfig"; sourceTree = "<group>"; };
+		EC2BA37327BECB6100CE0AD8 /* Privi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Privi.entitlements; sourceTree = "<group>"; };
+		EC2BA3B027C3D92E00CE0AD8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC2BA3B627C3ED2100CE0AD8 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		EC3AD68827BD36C200A5AC14 /* Privi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Privi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3AD68B27BD36C200A5AC14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC3AD68D27BD36C200A5AC14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC3AD68F27BD36C200A5AC14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC3AD69227BD36C200A5AC14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC3AD69527BD36C200A5AC14 /* Privi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Privi.xcdatamodel; sourceTree = "<group>"; };
 		EC3AD69727BD36C300A5AC14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC3AD69A27BD36C300A5AC14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC3AD69C27BD36C300A5AC14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12227FE7123D0CE7E7F3039 /* Pods_Privi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C5780571736B0AA61CFAE3 /* Pods_PriviTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +85,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FA68D8E36AA830447C117D5 /* Pods_Privi_PriviUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F0E2DDB4954C527A42A11A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E13DF55F151BE90481630B44 /* Pods-Privi.debug.xcconfig */,
+				B7BD35C9A5540D7C736262DA /* Pods-Privi.release.xcconfig */,
+				4BC4AFDBFD98E4FAE30A3834 /* Pods-Privi-PriviUITests.debug.xcconfig */,
+				DBA00C59E503BCD50C76A3C8 /* Pods-Privi-PriviUITests.release.xcconfig */,
+				146C1C59946D6E785004BBFB /* Pods-PriviTests.debug.xcconfig */,
+				BDC8CD4D9C8DAEE9B7D3B8B4 /* Pods-PriviTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1E7109D4FAE5879BB9A9F8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D067380040ADAF1CA1722C63 /* Pods_Privi.framework */,
+				5C0C1109C82B1911AF6B6BB8 /* Pods_Privi_PriviUITests.framework */,
+				6AAE41A250A1877087353F5D /* Pods_PriviTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC3AD67F27BD36C200A5AC14 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +122,8 @@
 				EC3AD6A427BD36C300A5AC14 /* PriviTests */,
 				EC3AD6AE27BD36C300A5AC14 /* PriviUITests */,
 				EC3AD68927BD36C200A5AC14 /* Products */,
+				4F0E2DDB4954C527A42A11A7 /* Pods */,
+				B1E7109D4FAE5879BB9A9F8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +140,14 @@
 		EC3AD68A27BD36C200A5AC14 /* Privi */ = {
 			isa = PBXGroup;
 			children = (
+				EC2BA37327BECB6100CE0AD8 /* Privi.entitlements */,
 				EC3AD68B27BD36C200A5AC14 /* AppDelegate.swift */,
-				EC3AD68D27BD36C200A5AC14 /* SceneDelegate.swift */,
-				EC3AD68F27BD36C200A5AC14 /* ViewController.swift */,
+				EC2BA3B027C3D92E00CE0AD8 /* ViewController.swift */,
 				EC3AD69127BD36C200A5AC14 /* Main.storyboard */,
 				EC3AD69727BD36C300A5AC14 /* Assets.xcassets */,
 				EC3AD69927BD36C300A5AC14 /* LaunchScreen.storyboard */,
 				EC3AD69C27BD36C300A5AC14 /* Info.plist */,
-				EC3AD69427BD36C200A5AC14 /* Privi.xcdatamodeld */,
+				EC2BA3B527C3ED2100CE0AD8 /* Model.xcdatamodeld */,
 			);
 			path = Privi;
 			sourceTree = "<group>";
@@ -137,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC3AD6B527BD36C300A5AC14 /* Build configuration list for PBXNativeTarget "Privi" */;
 			buildPhases = (
+				571B9B8B8FD7F1CA588CB97A /* [CP] Check Pods Manifest.lock */,
 				EC3AD68427BD36C200A5AC14 /* Sources */,
 				EC3AD68527BD36C200A5AC14 /* Frameworks */,
 				EC3AD68627BD36C200A5AC14 /* Resources */,
@@ -154,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC3AD6B827BD36C300A5AC14 /* Build configuration list for PBXNativeTarget "PriviTests" */;
 			buildPhases = (
+				E9661E71F7D366B15DC8AAF6 /* [CP] Check Pods Manifest.lock */,
 				EC3AD69D27BD36C300A5AC14 /* Sources */,
 				EC3AD69E27BD36C300A5AC14 /* Frameworks */,
 				EC3AD69F27BD36C300A5AC14 /* Resources */,
@@ -172,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC3AD6BB27BD36C300A5AC14 /* Build configuration list for PBXNativeTarget "PriviUITests" */;
 			buildPhases = (
+				77E2D1D0885E29809C91CE8A /* [CP] Check Pods Manifest.lock */,
 				EC3AD6A727BD36C300A5AC14 /* Sources */,
 				EC3AD6A827BD36C300A5AC14 /* Frameworks */,
 				EC3AD6A927BD36C300A5AC14 /* Resources */,
@@ -256,15 +298,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		571B9B8B8FD7F1CA588CB97A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Privi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77E2D1D0885E29809C91CE8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Privi-PriviUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9661E71F7D366B15DC8AAF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PriviTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC3AD68427BD36C200A5AC14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC3AD69627BD36C200A5AC14 /* Privi.xcdatamodeld in Sources */,
-				EC3AD69027BD36C200A5AC14 /* ViewController.swift in Sources */,
+				EC2BA3B127C3D92E00CE0AD8 /* ViewController.swift in Sources */,
 				EC3AD68C27BD36C200A5AC14 /* AppDelegate.swift in Sources */,
-				EC3AD68E27BD36C200A5AC14 /* SceneDelegate.swift in Sources */,
+				EC2BA3B727C3ED2100CE0AD8 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,17 +548,22 @@
 		};
 		EC3AD6B627BD36C300A5AC14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13DF55F151BE90481630B44 /* Pods-Privi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Privi/Privi.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MHJ6Q77Q6X;
+				DEVELOPMENT_TEAM = YS56ATA4YZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Privi/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to the photo library.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,27 +571,34 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Privi.Privi;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.privi-apple.priviapp.privi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		EC3AD6B727BD36C300A5AC14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7BD35C9A5540D7C736262DA /* Pods-Privi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Privi/Privi.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MHJ6Q77Q6X;
+				DEVELOPMENT_TEAM = YS56ATA4YZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Privi/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to the photo library.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -484,16 +606,19 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Privi.Privi;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.privi-apple.priviapp.privi";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		EC3AD6B927BD36C300A5AC14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146C1C59946D6E785004BBFB /* Pods-PriviTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +639,7 @@
 		};
 		EC3AD6BA27BD36C300A5AC14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC8CD4D9C8DAEE9B7D3B8B4 /* Pods-PriviTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +660,7 @@
 		};
 		EC3AD6BC27BD36C300A5AC14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC4AFDBFD98E4FAE30A3834 /* Pods-Privi-PriviUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +679,7 @@
 		};
 		EC3AD6BD27BD36C300A5AC14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA00C59E503BCD50C76A3C8 /* Pods-Privi-PriviUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -610,13 +738,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EC3AD69427BD36C200A5AC14 /* Privi.xcdatamodeld */ = {
+		EC2BA3B527C3ED2100CE0AD8 /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				EC3AD69527BD36C200A5AC14 /* Privi.xcdatamodel */,
+				EC2BA3B627C3ED2100CE0AD8 /* Model.xcdatamodel */,
 			);
-			currentVersion = EC3AD69527BD36C200A5AC14 /* Privi.xcdatamodel */;
-			path = Privi.xcdatamodeld;
+			currentVersion = EC2BA3B627C3ED2100CE0AD8 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
