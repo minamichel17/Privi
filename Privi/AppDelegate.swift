@@ -79,7 +79,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         
       //Messaging.messaging().delegate = self
       // firstTimeDBPoulation()
-       checkIfDBIsEmpty()
+       
         
     
   
@@ -96,9 +96,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         case .denied:
             break
         case .authorized:
-            break
+            checkIfDBIsEmpty()
         case .limited:
-            break
+            checkIfDBIsEmpty()
         @unknown default:
             break
         }
@@ -458,6 +458,7 @@ extension AppDelegate{
     func getDbMaxId() -> Int64{
         
         var idToReturn : Int64 = 0
+        let context = persistentContainer.viewContext
         let coreDataRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Photos")
         coreDataRequest.sortDescriptors = [NSSortDescriptor(key:"id", ascending: false)]
         coreDataRequest.returnsObjectsAsFaults = false
