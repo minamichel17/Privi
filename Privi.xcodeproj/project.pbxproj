@@ -12,6 +12,7 @@
 		E12227FE7123D0CE7E7F3039 /* Pods_Privi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D067380040ADAF1CA1722C63 /* Pods_Privi.framework */; };
 		EC2BA3B127C3D92E00CE0AD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2BA3B027C3D92E00CE0AD8 /* ViewController.swift */; };
 		EC2BA3B727C3ED2100CE0AD8 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC2BA3B527C3ED2100CE0AD8 /* Model.xcdatamodeld */; };
+		EC2BA3B927C6AA5E00CE0AD8 /* Splash Screen in Resources */ = {isa = PBXBuildFile; fileRef = EC2BA3B827C6AA5E00CE0AD8 /* Splash Screen */; };
 		EC3AD68C27BD36C200A5AC14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3AD68B27BD36C200A5AC14 /* AppDelegate.swift */; };
 		EC3AD69327BD36C200A5AC14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3AD69127BD36C200A5AC14 /* Main.storyboard */; };
 		EC3AD69827BD36C300A5AC14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3AD69727BD36C300A5AC14 /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 		EC2BA37327BECB6100CE0AD8 /* Privi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Privi.entitlements; sourceTree = "<group>"; };
 		EC2BA3B027C3D92E00CE0AD8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EC2BA3B627C3ED2100CE0AD8 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		EC2BA3B827C6AA5E00CE0AD8 /* Splash Screen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Splash Screen"; sourceTree = "<group>"; };
 		EC3AD68827BD36C200A5AC14 /* Privi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Privi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3AD68B27BD36C200A5AC14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC3AD69227BD36C200A5AC14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				EC2BA37327BECB6100CE0AD8 /* Privi.entitlements */,
+				EC2BA3B827C6AA5E00CE0AD8 /* Splash Screen */,
 				EC3AD68B27BD36C200A5AC14 /* AppDelegate.swift */,
 				EC2BA3B027C3D92E00CE0AD8 /* ViewController.swift */,
 				EC3AD69127BD36C200A5AC14 /* Main.storyboard */,
@@ -276,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2BA3B927C6AA5E00CE0AD8 /* Splash Screen in Resources */,
 				EC3AD69B27BD36C300A5AC14 /* LaunchScreen.storyboard in Resources */,
 				EC3AD69827BD36C300A5AC14 /* Assets.xcassets in Resources */,
 				EC3AD69327BD36C200A5AC14 /* Main.storyboard in Resources */,

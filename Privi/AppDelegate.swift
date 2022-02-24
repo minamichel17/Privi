@@ -41,12 +41,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
     var context:NSManagedObjectContext!
    
-   
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        self.context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        
         // Request permission to access photo library
         if #available(iOS 14, *) {
+            
+           
+            
             PHPhotoLibrary.requestAuthorization(for: .readWrite) { [unowned self] (status) in
                 DispatchQueue.main.async { [unowned self] in
                     showUI(for: status)
@@ -128,7 +132,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     // MARK: - Core Data Saving support
 
     func saveContext () {
-        let context = persistentContainer.viewContext
+      //  let context = persistentContainer.viewContext
         if context.hasChanges {
             do {
                 try context.save()
@@ -458,7 +462,7 @@ extension AppDelegate{
     func getDbMaxId() -> Int64{
         
         var idToReturn : Int64 = 0
-        let context = persistentContainer.viewContext
+        //let context = persistentContainer.viewContext
         let coreDataRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Photos")
         coreDataRequest.sortDescriptors = [NSSortDescriptor(key:"id", ascending: false)]
         coreDataRequest.returnsObjectsAsFaults = false
@@ -505,7 +509,7 @@ extension AppDelegate{
     // to  check if DB in core date is empty
 
     func checkIfDBIsEmpty(){
-        let context = persistentContainer.viewContext
+       // let context = persistentContainer.viewContext
         let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Photos")
         request.returnsObjectsAsFaults = false
         do {
@@ -547,7 +551,7 @@ extension AppDelegate{
         
         let photoLibLatestPhotoCreationDate: Date
         let databaseLatestPhotoCreationDate: Date
-        let context = persistentContainer.viewContext
+        //let context = persistentContainer.viewContext
         
         let fetchOptions = PHFetchOptions()
         fetchOptions.sortDescriptors = [NSSortDescriptor(key:"creationDate", ascending: false)]
